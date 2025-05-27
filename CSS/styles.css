@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #248ba5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #533db4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.ejercicio {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.ejercicio h3 {
+    color: #df2417;
+    margin-bottom: 10px;
+}
+
+.ejercicio p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.codigo {
+    background-color: #f4f4f4;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+.resultado {
+    background-color: #e8f4f8;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    margin-top: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #fffcfc;
+    margin: 15px 0;
+}
