@@ -30,12 +30,12 @@ function ejecutarEjercicio6() {
                     let temp = arreglo[j];
                     arreglo[j] = arreglo[j + 1];
                     arreglo[j + 1] = temp;
-                 siCambio = true;
+                    siCambio = true;
                 }
             }
 
             // Si no hubo cambios, ya esta
-            if ( siCambio) {
+            if (!siCambio) {
                 break;
             }
         }
